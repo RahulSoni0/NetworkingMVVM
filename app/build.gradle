@@ -78,4 +78,6 @@ dependencies {
     implementation "androidx.navigation:navigation-ui-ktx:$navigation_version"
 
 //    implementation 'com.github.ybq:Android-SpinKit:1.4.0'
+    implementation "androidx.fragment:fragment-ktx:1.5.2"
+    // ^this fixed the CreationExtras must have a value by `SAVED_STATE_REGISTRY_OWNER_KEY` error #gg
 }
